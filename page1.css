@@ -1,0 +1,120 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e9f1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  overflow: hidden;
+}
+
+.mobile-screen {
+  position: relative;
+  width: 416px;
+  height: 736px;
+  background: #212d2d;
+}
+.vid-bg {
+  width: 416px;
+  height: 736px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #212d2d;
+}
+
+.first {
+  position: absolute;
+  width: 151px;
+  height: 33.45px;
+  top: 50px;
+  z-index: 200;
+  left: 131px;
+  background-color: transparent;
+}
+
+.text-small {
+  font-size: 8.24px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -70px;
+}
+
+.center-text {
+  position: absolute;
+  width: 329px;
+  height: 72px;
+  top: 313px;
+  left: 61px;
+  text-align: center;
+  font-family: "Athelas";
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+}
+span {
+  font-family: Athelas;
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 35.88px;
+  letter-spacing: 0.01em;
+  text-align: center;
+}
+.image-container {
+  position: absolute;
+  top: 496px;
+  left: 146px;
+}
+
+.image-container img {
+  width: Hug (122.07px) px;
+  height: Hug (86.93px) px;
+  top: 496px;
+  left: 146px;
+  gap: 10.51px;
+  opacity: 0px;
+}
+
+.image2-container {
+  position: absolute;
+  top: 609px;
+  left: 91.5px;
+  width: 214.87px;
+  height: 47.26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.image2-container img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.image2-container:hover img {
+  transform: scale(1.1);
+}
+
+.weather-container {
+  position: absolute;
+  top: 670px;
+  left: 190px;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.vertical-line {
+  position: absolute;
+
+  width: 2px;
+  height: 30px;
+  top: 703px;
+  left: 206px;
+  gap: 0px;
+  opacity: 0.5px;
+  background-color: #ffffff7c;
+}

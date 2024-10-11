@@ -1,0 +1,140 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e9f1;
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.mobile-screen {
+  position: relative;
+  width: 416px;
+  height: 736px;
+  background: #212d2d;
+}
+
+.first {
+  position: absolute;
+  width: 151px;
+  height: 33.45px;
+  top: 50px;
+  left: 131px;
+  background-color: transparent;
+}
+
+.left-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  margin-top: 1px;
+  margin-left: -87px;
+  padding: 6px 3px;
+}
+
+.main-icon {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  left: 50px;
+  top: 10px;
+}
+
+.center-container {
+  position: absolute;
+  width: 361px;
+  height: 237px;
+  top: 139.5px;
+  left: 27px;
+  padding: 15px 18px;
+  text-align: center;
+  font-family: "Athelas";
+  font-size: 26px;
+  font-weight: 400;
+  color: white;
+}
+.upper-div {
+  width: 329px;
+  height: 5px;
+  margin-top: 29;
+  top: 70;
+  margin-bottom: 80px;
+}
+.upper-div h5 {
+  font-size: 15px;
+  font-weight: 150;
+  font-family: Athelas;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 0.36px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  top: 70;
+  width: 325px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.upper-div p {
+  font-size: 10px;
+  font-weight: 100;
+  font-family: Athelas;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 0.8px;
+  letter-spacing: 0.12em;
+  text-align: center;
+}
+
+.lower-div {
+  width: 329px;
+  height: 140px;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.03em;
+}
+
+.image-container {
+  position: absolute;
+  width: 248px;
+  height: 307px;
+  top: 430px;
+  left: 83px;
+  border-radius: 16px 0px 0px 0px;
+  box-shadow: 0px 4px 54px 2px #ffffff0d;
+  transition: all 0.8s ease-in-out;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 16px 16px 0px 0px;
+  transition: transform 1s ease-in-out;
+}
+
+.image2-container {
+  position: absolute;
+  top: 671px;
+  left: 293px;
+  width: 83px;
+  height: 39.26px;
+  border-radius: 54.36px 0px 0px 0px;
+  border: 0.5px solid;
+  border-image-source: linear-gradient(
+    271.88deg,
+    #ffffff -19.49%,
+    rgba(153, 153, 153, 0) 95.19%
+  );
+  backdrop-filter: blur(59.79px);
+}
+
+.image2-container img {
+  width: 100%;
+  height: 100%;
+}
